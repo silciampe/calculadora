@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora Simple</title>
+</head>
+<body>
+    <header>
+        <h1 class="titulo">Calculadora</h1>
+    </header>
+
+        <table class="calculadora">
+            <tr>
+                <th colspan="4">
+                    <input type="text" class="display" id="display" readonly>
+                </th>
+            </tr>
+            <tr>
+                <th colspan="4">
+                    <button  class="boton" onclick="borrarDisplay()">BORRAR</button>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <BUtton class="boton" onclick="abrirenDisplay('7')">7</BUtton>
+                </th>
+                <th>
+                    <BUtton class="boton" onclick="abrirenDisplay('8')">8</BUtton>
+                </th>
+                <th>
+                    <BUtton class="boton" onclick="abrirenDisplay('9')">9</BUtton>
+                </th>
+                <th>
+                    <BUtton class="boton" onclick="abrirenDisplay('/')">/</BUtton>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <BUtton class="boton" onclick="abrirenDisplay('4')">4</BUtton>
+                </th>
+                <th>
+                    <BUtton class="boton" onclick="abrirenDisplay('5')">5</BUtton>
+                </th>
+                <th>
+                    <BUtton class="boton" onclick="abrirenDisplay('6')">6</BUtton>
+                </th>
+                <th>
+                    <BUtton class="boton" onclick="abrirenDisplay('*')">*</BUtton>
+                </th>
+            </tr><tr>
+                <th>
+                    <BUtton class="boton" onclick="abrirenDisplay('1')">1</BUtton>
+                </th>
+                <th>
+                    <BUtton class="boton" onclick="abrirenDisplay('2')">2</BUtton>
+                </th>
+                <th>
+                    <BUtton class="boton" onclick="abrirenDisplay('3')">3</BUtton>
+                </th>
+                <th>
+                    <BUtton class="boton" onclick="abrirenDisplay('-')">-</BUtton>
+                </th>
+            </tr><tr>
+                <th>
+                    <BUtton class="boton" onclick="abrirenDisplay('0')">0</BUtton>
+                </th>
+                <th>
+                    <BUtton class="boton" onclick="abrirenDisplay('.')">.</BUtton>
+                </th>
+                <th>
+                    <BUtton class="boton" onclick="calcular()">=</BUtton>
+                </th>
+                <th>
+                    <BUtton class="boton" onclick="abrirenDisplay('+')">+</BUtton>
+                </th>
+            </tr>
+        </table>
+
+
+
+
+
+
+    <script src="./script.js"></script>
+
+</body>
+</html>
